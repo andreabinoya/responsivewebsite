@@ -1,0 +1,217 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="src/favicon.jpg"> <!-- Icon -->
+
+    <!-- Mine -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+    <!-- JQuery Owl Carousel -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <title>Chowkeing</title>
+</head>
+
+<body id="body">
+    <!-- Nav Bar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a id="navbar-brand" class="navbar-brand" href="#">
+                <img src="src/logo2.png" alt="nav-logo" width="30" height="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a id="nav-link" class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav-link" class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav-link" class="nav-link" href="product.html">Product</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Homepage Image Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="src/c1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="src/c2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="src/c3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <img class="img-fluid" src="src/splash_slide_1.png" />
+            </div>
+            <div class="col" style="word-wrap: break-word; margin-top: 30px; text-indent: 50px;">
+                <h4 style="font-family: 'Quicksand', sans-serif; line-height: 1.6;">Pioneer of the Asian quick service
+                    restaurant concept in the Philippines, Chowking combines
+                    traditional
+                    Chinese cuisine with modern fast food service. Welcome to our corporate website!</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content | Menu -->
+    <div style="margin-top: 10%; margin-bottom: 2%;" class="container">
+        <h1 style="text-align: center;">Our Menu</h1>
+    </div>
+
+    <div class="container">
+        <div class="slider owl-carousel">
+            <div class="card">
+                <div style="height: auto;" class="img">
+                    <img src="src/menu1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div id="item_title" class="title">
+                        Lumpiang Shanghai Lauriat</div>
+                    <p id="item_desc">
+                        Lumpiang Shanghai served with a sweet and sour dipping sauce, egg fried rice, half-serving of
+                        pancit canton, one pork siomai, chicharap and a buchi for dessert.</p>
+                    <div class="btn">
+                        <a href="product.html"><button>See more</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div style="height: auto;" class="img">
+                    <img src="src/menu2.png" alt="">
+                </div>
+                <div class="content">
+                    <div id="item_title" class="title">
+                        Meaty Asado and
+                        Bola-bola Siopao</div>
+                    <p id="item_desc">
+                        Meatier and saucier! pork slices mixed in with more roasted asado sauce
+                        all inside a classic Asian bun.</p>
+                    <div class="btn">
+                        <a href="product.html"><button>See more</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div style="height: auto;" class="img">
+                    <img src="src/menu3.png" alt="">
+                </div>
+                <div class="content">
+                    <div id="item_title" class="title">
+                        Beef Wonton Mami</div>
+                    <p id="item_desc">
+                        Richly flavored beef noodle soup topped with pork wonton dumplings</p>
+                    <div class="btn">
+                        <a href="product.html"><button>See more</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content | Brief About -->
+    <div style="margin-top: 10%; margin-bottom: 15%;" class="container">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">About Us</h5>
+                <p style="text-indent: 50px; line-height: 1.6;" class="card-text">
+                    Chowking (Chinese: 超群) is a Chinese-cuisine food chain originated in the Philippines. They are a
+                    western-style food chain, mainly in how customers are served, but the menu consisting solely of
+                    Chinese-cuisine food. Chowking mostly sells noodle soups, dim sum and rice bowls with toppings.
+                    After Jollibee Foods Corporation (JFC) acquired Chowking, the brand was placed under Fresh N' Famous
+                    Foods, a JFC subsidiary. <a href="about.html">See More...</a></p>
+            </div>
+            <img src="src/aboutbrief_img.jpg" class="card-img-bottom" alt="chowking store">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__addr">
+            <h2>Contact</h2>
+            <address>
+                Rizal Drive Corner 3rd Avenue Taguig City National Capital Region<br>
+            </address>
+            <div class="legal">
+                <p>&copy; 2021 Chowkeing. All rights reserved.</p>
+            </div>
+
+        </div>
+
+        <ul style="text-align-last: right;" class="footer__nav">
+            <li class="nav__item">
+                <img class="img-fluid" src="src/logo.png" style="width: 200px; height: auto;" alt="chowking store">
+            </li>
+        </ul>
+
+        <ul style="text-align-last: right;" class="footer__nav">
+            <li class="nav__item">
+                <h2 class="nav__title">Quick Links</h2>
+                <ul class="nav__ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Products</a></li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
+
+<script>
+    $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+    });
+</script>

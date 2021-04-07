@@ -1,0 +1,510 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="src/favicon.jpg"> <!-- Icon -->
+
+    <!-- Mine -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+    <!-- JQuery Owl Carousel -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <style>
+        .card-text {
+            font-size: 12px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+
+    <title>Chowking | Products</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a id="navbar-brand" class="navbar-brand" href="#">
+                <img src="src/logo2.png" alt="nav-logo" width="30" height="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a id="nav-link" class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav-link" class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav-link" class="nav-link active" href="product.html">Product</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div style="margin-top: 5%; margin-bottom: 2%;" class="container">
+        <h1 style="text-align: center;">Our Menu</h1>
+        <p style="text-align: center;"> This is our selection of our menu. Click your desired item and browse different
+            food item under each
+            categories. </p>
+    </div>
+
+    <div style="margin-bottom: 10%;" class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <a href="#headingOne">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button style="background-color: rgb(211, 60, 60); color: white;" class="accordion-button"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            Chao Fan
+                        </button>
+                    </h2>
+                </a>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div style="height: auto;" class="card h-100">
+                                    <img src="src/chaofan.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pork Chao Fan with Toppings</h5>
+                                        <p class="card-text">Chowking’s signature meaty fried rice tossed with pork,
+                                            egg, kangkong leaves, and 4pcs. of dimsum toppings.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/porkchaofan.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pork Chao Fan</h5>
+                                        <p class="card-text">Chowking’s signature meaty fried rice tossed with pork,
+                                            egg, and kangkong leaves.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/beefchaofan.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Beef Chao Fan With Toppings</h5>
+                                        <p class="card-text">So beefy good! With egg, cabbage, and carrots mixed in, and
+                                            served with 4pcs. of dimsum toppings, this fried rice is both tasty and
+                                            hearty.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/yangchao.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Yang Chow Chao Fan with Topping</h5>
+                                        <p class="card-text">Bright and flavorful, this well-loved dish combines
+                                            stir-fried rice with sautéed chorizo, ham, egg, vegetables, shrimp and is
+                                            served with 4pcs. of dimsum toppings.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/beefchaofanorig.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Beef Chao Fan</h5>
+                                        <p class="card-text">So beefy good! With egg, cabbage, and carrots mixed in,
+                                            this fried rice is both tasty and hearty.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/yangchaoorig.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Yang Chow Chao</h5>
+                                        <p class="card-text">Bright and flavorful, this well-loved dish combines
+                                            stir-fried rice with sautéed chorizo, ham, egg, vegetables, and shrimp
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <a href="#headingOne">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button style="background-color: rgb(211, 60, 60); color: white;"
+                            class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Chinese Rice Meals
+                        </button>
+                    </h2>
+                </a>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div style="height: auto;" class="card h-100">
+                                    <img src="src/snschicken.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sweet 'n' Sour Chicken</h5>
+                                        <p class="card-text">Crunchy Chicken chunks with a Sweet 'n' Sour Twist </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/snspork.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sweet 'n' Sour Pork</h5>
+                                        <p class="card-text">A classic dish of deep-fried pork chunks coated in sweet
+                                            and
+                                            sour sauce, topped with green bell peppers, red onions, and pineapples.
+                                            Tamang
+                                            tamis, tamang asim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/snsfish.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sweet 'n' Sour Fish</h5>
+                                        <p class="card-text">Lightly breaded fish fillets fried and coated in sweet and
+                                            sour
+                                            sauce, topped with green bell peppers, red onions, and pineapples. Tamang
+                                            tamis,
+                                            tamang asim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/chickenrice.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chinese-Style Fried Chicken</h5>
+                                        <p class="card-text">Crispy fried chicken with special Chinese flavors,served
+                                            with
+                                            gravy, plain rice and chicharap.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/lumpiarice.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lumpiang Shanghai Rice Meal</h5>
+                                        <p class="card-text">Deep-fried rolls of ground pork and shrimp combined with
+                                            carrots, onion, and spices, served with sweet and sour dipping sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/chopsuey.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chopsuey</h5>
+                                        <p class="card-text">Fresh vegetables tossed in oyster sauce and stir-fried
+                                            until
+                                            perfectly crisp-tender, served with rice and chicharap.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <a href="#headingTwo">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button style="background-color: rgb(211, 60, 60); color: white;"
+                            class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Lauriat
+                        </button>
+                    </h2>
+                </a>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/snschickenlauriat.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sweet 'n' Sour Chicken Lauriat</h5>
+                                        <p class="card-text">Crunchy Chicken chunks with a Sweet 'n' Sour Twist, with
+                                            egg fried rice, half-serving of pancit canton, chicharap and a buchi for
+                                            dessert</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/chickenlauriat.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chinese-Style Fried Chicken Lauriat</h5>
+                                        <p class="card-text">Crispy fried chicken with special Chinese flavors. Served
+                                            with egg fried rice, half-serving of pancit canton, one pork siomai,
+                                            chicharap and buchi for dessert.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/snsporklauriat.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sweet 'n' Sour Pork Lauriat</h5>
+                                        <p class="card-text">Deep-fried pork chunks coated in a sweet and sour sauce
+                                            with egg fried rice, half-serving of pancit canton, chicharap, and a buchi
+                                            for dessert.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/snsfishlauriat.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sweet 'n' Sour Fish Lauriat</h5>
+                                        <p class="card-text">Sweet and sour fish with egg fried rice, half-serving of
+                                            pancit canton, chicharap, and a buchi for dessert.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/lumpialauriat.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lumpiang Shanghai Lauriat</h5>
+                                        <p class="card-text">Lumpiang Shanghai served with a sweet and sour dipping
+                                            sauce, egg fried rice, half-serving of pancit canton, one pork siomai,
+                                            chicharap and a buchi for dessert.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/spplauriat.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Salt & Pepper Pork Lauriat</h5>
+                                        <p class="card-text">Crunchy, tender fried pork chunks sautéed with garlic and
+                                            bell peppers, served with egg fried rice, half-serving of pancit canton,
+                                            chicharap and a buchi for dessert.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <a href="#headingThree">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button style="background-color: rgb(211, 60, 60); color: white;"
+                            class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Noodles
+                        </button>
+                    </h2>
+                </a>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div style="height: auto;" class="card h-100">
+                                    <img src="src/wontonmami.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Wonton Mami</h5>
+                                        <p class="card-text">Egg noodles in a warm, comforting pork broth, topped with
+                                            steamed pork wonton and a sprinkling of spring onions — ito’y may meaty
+                                            sabaw at mami na nakakaginhawa
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/beefmami.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Beef Mami</h5>
+                                        <p class="card-text">Richly flavored beef noodle soup with premium-cut beef
+                                            cubes, tender noodles, and Taiwan pechay, all garnished with leeks.
+                                            -Talagang Beef na beef!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/lomi.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lomi</h5>
+                                        <p class="card-text">Thick egg noodles, with chicken balls, sautéed pork, pork
+                                            liver, and vegetables. Served with calamansi for zest.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/pancitcanton.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pancit Canton</h5>
+                                        <p class="card-text">Stir-fried noodles with sautéed chicken strips, sliced
+                                            chicken balls, shrimp, cabbage, carrots, and spring onions, all tossed in a
+                                            pancit canton sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <a href="#headingFour">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button style="background-color: rgb(211, 60, 60); color: white;"
+                            class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Dimsum
+                        </button>
+                    </h2>
+                </a>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/asado.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">NEW! Chunky Asado Siopao</h5>
+                                        <p class="card-text">NEW and improved, meatier and saucier! More pork slices
+                                            mixed in with more roasted asado sauce all inside a classic Asian bun.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/bolabola.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bola Bola Siopao</h5>
+                                        <p class="card-text">Ground pork combined with Chinese chorizo and salted egg
+                                            makes this the best savory bun. Great with hot sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/chocopao.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chocopao</h5>
+                                        <p class="card-text">A chocolate-filled steamed bun. Great for dessert or a
+                                            snack!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/Siomai.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Siomai</h5>
+                                        <p class="card-text">Dumplings of ground meat and spices served with a special
+                                            soy-based dipping sauce. Can be steamed or fried.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/porkdumplings.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fried Pork Dumplings</h5>
+                                        <p class="card-text">These fried pockets are filled with mildly spiced meat,
+                                            shredded cabbage, and mushroom. Served with a soy-based dipping sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="src/lumpia.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lumpiang Shanghai</h5>
+                                        <p class="card-text">Deep-fried rolls of ground pork and shrimp combined with
+                                            carrots, onion, and spices, served with sweet and sour dipping sauce.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__addr">
+            <h2>Contact</h2>
+            <address>
+                Rizal Drive Corner 3rd Avenue Taguig City National Capital Region<br>
+            </address>
+            <div class="legal">
+                <p>&copy; 2021 Chowkeing. All rights reserved.</p>
+            </div>
+
+        </div>
+
+        <ul style="text-align-last: right;" class="footer__nav">
+            <li class="nav__item">
+                <img class="img-fluid" src="src/logo.png" style="width: 200px; height: auto;" alt="chowking store">
+            </li>
+        </ul>
+
+        <ul style="text-align-last: right;" class="footer__nav">
+            <li class="nav__item">
+                <h2 class="nav__title">Quick Links</h2>
+                <ul class="nav__ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="product.html">Products</a></li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
