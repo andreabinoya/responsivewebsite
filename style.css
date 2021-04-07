@@ -151,3 +151,10 @@ nav{
   height: auto;
   margin-bottom: 20px;
 }
+
+
+@media only screen and (max-width: 480px) {
+  #itemd_desc{
+    display: none;
+  }
+}
