@@ -28,16 +28,16 @@
 
     <style>
         .btn {
-            position: relative;
-            left: 10%;
-            bottom: -10px;
+            position: absolute;
+            right: 10%;
+            bottom: 5%;
         }
 
         #card_carousel {
             height: 200px;
         }
 
-        @media only screen and (max-width: 480px) {
+        @media only screen and (max-width: 1000px) {
             #item_desc {
                 display: none;
                 font-size: 8px;
@@ -45,7 +45,10 @@
 
             #card_carousel {
                 height: 200px;
-                width: auto;
+            }
+            .card #card_carousel_main{
+                width: 200px;
+                margin-left: 200px;
             }
         }
     </style>
@@ -133,7 +136,7 @@
 
     <div class="container">
         <div class="slider owl-carousel">
-            <div class="card">
+            <div id="card_carousel_main" class="card">
                 <div style="height: auto;" class="img">
                     <img src="src/menu1.jpg" alt="">
                 </div>
@@ -148,7 +151,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <div id="card_carousel_main" class="card">
                 <div style="height: auto;" class="img">
                     <img src="src/menu2.png" alt="">
                 </div>
@@ -164,7 +167,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <div id="card_carousel_main" class="card">
                 <div style="height: auto;" class="img">
                     <img src="src/menu3.png" alt="">
                 </div>
