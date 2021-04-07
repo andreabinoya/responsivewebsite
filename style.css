@@ -81,7 +81,7 @@ nav{
 }
 
 #item_title{
-    font-size: clamp(12px, 5vw, 18px);
+    font-size: clamp(11px, 5vw, 18px);
 }
 
 #item_desc{
@@ -89,6 +89,7 @@ nav{
     word-wrap: break-word;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-bottom: 20px;
 }
 
 
