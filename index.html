@@ -27,14 +27,24 @@
     <title>Chowkeing</title>
 
     <style>
-        .btn button {
+        .btn {
             position: absolute;
             right: 10%;
             bottom: 5%;
         }
 
         #card_carousel {
-            height: 330px;
+            height: 400px;
+        }
+
+        @media only screen and (max-width: 480px) {
+            #item_desc {
+                display: none;
+            }
+
+            #card_carousel {
+                height: auto;
+            }
         }
     </style>
 </head>
@@ -156,7 +166,7 @@
                 <div style="height: auto;" class="img">
                     <img src="src/menu3.png" alt="">
                 </div>
-                <div id="card_carousel"  class="content">
+                <div id="card_carousel" class="content">
                     <div id="item_title" class="title">
                         Beef Wonton Mami</div>
                     <p id="item_desc">
