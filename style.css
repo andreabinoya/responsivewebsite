@@ -175,5 +175,7 @@ nav{
     .footer__nav {
       flex: 2 0px;
     }
-  
-    
+  #logo_footer{
+    width: 100px; 
+    height: auto;
+  }
